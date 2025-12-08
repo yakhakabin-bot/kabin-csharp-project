@@ -23,6 +23,11 @@
 - [x] Create UnitTest.cs: Unit tests for AddDevice, RemoveDevice, UpdateDeviceStatus, SearchDeviceById using MSTest.
 
 ## Step 6: Testing and Debugging
-- [ ] Run the application manually to test all functionalities.
-- [ ] Debug any issues using Visual Studio tools.
-- [ ] Ensure all requirements are met (OOP, patterns, algorithms, etc.).
+- [x] Run the application manually to test all functionalities.
+- [x] Debug any issues using Visual Studio tools.
+- [x] Ensure all requirements are met (OOP, patterns, algorithms, etc.).
+
+## Step 7: GitHub Repository
+- [x] Initialize Git repository locally.
+- [x] Create initial commit with all project files.
+- [ ] Create GitHub repository and push code.
