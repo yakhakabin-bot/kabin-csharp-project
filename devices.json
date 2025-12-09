@@ -4,5 +4,11 @@
     "Name": "machine",
     "IPAddress": "11111",
     "Status": 1
+  },
+  {
+    "DeviceID": "001",
+    "Name": "TestDevice",
+    "IPAddress": "192.168.1.1",
+    "Status": 1
   }
 ]
