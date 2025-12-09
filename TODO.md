@@ -30,4 +30,4 @@
 ## Step 7: GitHub Repository
 - [x] Initialize Git repository locally.
 - [x] Create initial commit with all project files.
-- [ ] Create GitHub repository and push code.
+- [x] Create GitHub repository and push code.
