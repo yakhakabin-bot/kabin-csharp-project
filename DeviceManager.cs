@@ -147,6 +147,17 @@ namespace IoTDeviceMonitor
             Logger.Instance.Log("Devices sorted by status.");
         }
 
+
+
+
+
+
+
+
+
+
+        
+
         public List<Device> GetAllDevices()
         {
             return new List<Device>(devices);

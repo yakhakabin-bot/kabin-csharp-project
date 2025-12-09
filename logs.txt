@@ -6,3 +6,14 @@
 09/12/2025 10:54:51: Device added: 001
 09/12/2025 10:54:51: Devices saved to file.
 09/12/2025 10:54:51: Application exited.
+09/12/2025 12:03:38: Application started.
+09/12/2025 12:09:25: Application started.
+09/12/2025 12:09:55: Devices loaded from file.
+09/12/2025 12:09:55: Device added: 0001
+09/12/2025 12:09:56: Devices saved to file.
+09/12/2025 12:10:56: Failed to add device: DeviceID 0001 already exists.
+09/12/2025 12:12:28: Error exporting report: Access to the path 'D:\Built a machine' is denied.
+09/12/2025 12:15:52: Application started.
+09/12/2025 12:15:52: Devices loaded from file.
+09/12/2025 12:15:52: Failed to add device: DeviceID 001 already exists.
+09/12/2025 12:15:52: Application exited.
