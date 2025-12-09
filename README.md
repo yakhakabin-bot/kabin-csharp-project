@@ -30,12 +30,7 @@ The IoT Device Monitoring System is a desktop application built with .NET 8.0 th
 - [File Formats](#file-formats)
 - [Architecture](#architecture)
 
-## 🖥️ System Requirements
 
-- **.NET Runtime**: .NET 8.0 or later
-- **Operating System**: Windows, Linux, or macOS
-- **RAM**: Minimum 512 MB (recommended 1 GB)
-- **Disk Space**: Minimum 100 MB
 
 ### Prerequisites
 
@@ -297,13 +292,7 @@ Stores all devices in JSON format:
 - `1` = Offline
 - `2` = Maintenance
 
-### logs.txt
-Application activity log with timestamps:
-```
-[2025-12-09 10:30:45] Application started.
-[2025-12-09 10:31:12] Device D001 added successfully.
-[2025-12-09 10:32:05] Device status updated: D001 -> Online
-[2025-12-09 10:33:22] Report exported to output.txt
+
 ```
 
 ## 🏛️ Architecture
@@ -367,15 +356,7 @@ cd kabin-csharp-project
 dotnet build
 ```
 
-### Runtime Errors
 
-**Error**: "devices.json not found"
-- Application will create it automatically on first device addition
-- Check folder permissions if creation fails
-
-**Error**: "Cannot write to logs.txt"
-- Verify write permissions in the project directory
-- Close any application that may have the file open
 
 ## 📊 Test Coverage
 
@@ -392,12 +373,6 @@ Run tests with:
 dotnet test
 ```
 
-## 🔐 Security Considerations
-
-- Application validates all user input
-- Device IDs must be unique
-- File I/O includes error handling
-- Logging includes timestamps for audit trail
 
 ## 📝 Development Notes
 
