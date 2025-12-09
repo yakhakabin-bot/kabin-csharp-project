@@ -11,7 +11,7 @@ namespace IoTDeviceMonitor
         private List<Device> devices = new List<Device>();
         private Dictionary<string, Device> deviceDict = new Dictionary<string, Device>();
         private List<IStatusObserver> observers = new List<IStatusObserver>();
-        private readonly string devicesFilePath = "devices.json";
+        private readonly string devicesFilePath = Path.Combine(AppContext.BaseDirectory, "devices.json");
 
         public DeviceManager()
         {

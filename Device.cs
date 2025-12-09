@@ -29,6 +29,15 @@ namespace IoTDeviceMonitor
             }
         }
 
+        // Parameterless constructor required for JSON deserialization
+        public Device()
+        {
+            DeviceID = string.Empty;
+            Name = string.Empty;
+            IPAddress = string.Empty;
+            _status = DeviceStatus.Offline;
+        }
+
         public Device(string deviceID, string name, string ipAddress, DeviceStatus status = DeviceStatus.Offline)
         {
             DeviceID = deviceID;
