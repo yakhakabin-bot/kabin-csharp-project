@@ -1,3 +1,8 @@
 08/12/2025 17:57:24: Application started.
 08/12/2025 17:58:58: Device added: 12
 08/12/2025 17:58:58: Devices saved to file.
+09/12/2025 10:54:50: Application started.
+09/12/2025 10:54:51: Devices loaded from file.
+09/12/2025 10:54:51: Device added: 001
+09/12/2025 10:54:51: Devices saved to file.
+09/12/2025 10:54:51: Application exited.
